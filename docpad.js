@@ -7,7 +7,7 @@ module.exports = {
     site: {
       name: "Campeonato Brasileiro Long Casting 2015",
       description: "Campeonato Brasileiro de Long Casting 2015.",
-      url: "http://www.longcastingbrasil.com.br"
+      url: "http://longcastingbrasil.com.br"
 
         //url: "http://localhost:9778"
     }
@@ -65,7 +65,7 @@ module.exports = {
     development: {
       templateData: {
         site: {
-          url: "http://www.longcastingbrasil.com.br"
+          url: "http://longcastingbrasil.com.br"
              // url: "http://localhost:9778"
         }
       }
