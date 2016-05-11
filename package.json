@@ -1,0 +1,25 @@
+{
+  "engines": {
+    "node": "0.10",
+    "npm": "2.0"
+  },
+  "dependencies": {
+    "docpad": "^6.69.2",
+    "docpad-plugin-cleanurls": "^2.7.0",
+    "docpad-plugin-eco": "^2.1.0",
+    "docpad-plugin-ghpages": "^2.4.0",
+    "docpad-plugin-marked": "^2.2.1",
+    "docpad-plugin-moment": "^2.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-html-validation": "~0.1.13"
+  },
+  "scripts": {
+    "build": "docpad generate --env static",
+    "generate": "docpad generate",
+    "deploy": "docpad deploy-ghpages --env static",
+    "test": "docpad generate --silent",
+    "watch": "docpad run --silent"
+  }
+}
