@@ -1,4 +1,4 @@
-# Copy from BrazilJS.org
+# Long Casting Brasil - Site
 ## Setup
 
 4. Install local dependencies.
